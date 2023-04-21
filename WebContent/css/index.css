@@ -1,0 +1,55 @@
+.navbar {
+    background-color: azure;
+}
+.home {
+    height: 400px;
+    background-image: url('../img/sky.jpeg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: 0;
+    animation-name: fadeUp;
+    animation-fill-mode: forwards;
+    animation-duration: 2s;
+}
+@keyframes fadeUp {
+    from {
+        opacity: 0;
+        transform: translateY(100px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+.about {
+    height: 400px;
+    background-image: url('../img/school.jpg');
+    background-color: rgba(255, 255, 255, 0.8);
+    background-blend-mode: lighten;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.scroll {
+    opacity: 0;
+    animation-name: fadeUp;
+    animation-fill-mode: forwards;
+    animation-duration: 2s;
+}
+.mt {
+    padding-top: 100px;
+}
+.mtt {
+    margin-top: 250px;
+}
+img {
+    width: 50px;
+}
+.skill {
+    background-color: aquamarine;
+    padding-top: -250px;
+    margin-top: 250px;
+    justify-content: center;
+}
+p.align-self-center {
+    width: 40%;
+}
